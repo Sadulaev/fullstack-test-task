@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && npm run start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadulaev/fullstack-test-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sadulaev/fullstack-test-task/issues"
+  },
+  "homepage": "https://github.com/Sadulaev/fullstack-test-task#readme"
+}
