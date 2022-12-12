@@ -1,15 +1,41 @@
-body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
+.main-block {
+    width: 400px;
+    position: relative;
+    display: flex;
+}
+
+.sessions-list {
+    max-height: 500px;
+    overflow-y:scroll;
+    font-size: 13px;
+    width: inherit;
+    position: absolute;
+    left: -110%;
+    border: 1px solid #757474;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.sessions-item {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+.sessions-item p {
+    padding: 0 0 10px;
+    margin: 0;
+}
+
+.sessions-item:last-child {
+    border-bottom: none;
 }
 
 h1 {
     letter-spacing: 2px;
-    font-size: 48px;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .activate-form {
-    width: 300px;
     padding: 20px;
     border: 1px solid #757474;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);

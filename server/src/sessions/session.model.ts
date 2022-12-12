@@ -7,6 +7,9 @@ export type SessionDocument = HydratedDocument<Session>
 export class Session {
     _id?: string
 
+    @Prop({unique: true})
+    sessionId: string;
+
     @Prop({default: new Date()})
     timestamp: Date;
 
