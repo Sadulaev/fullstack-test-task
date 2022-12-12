@@ -8,7 +8,7 @@ console.log(process.env.MONGO_LINK)
 @Module({
   imports: [
     ConfigModule.forRoot(
-      {envFilePath: '.env'}
+      {envFilePath: '.example.env'}
     ),
     MongooseModule.forRoot(process.env.MONGO_LINK),
     SessionsModule
